@@ -11,6 +11,5 @@ Blocking and unblocking of ip.
 
 ### Screen Shot
 <p align="center">
-  <img src="your_relative_path_here" width="350" title="hover text">
-  <img src="./ScreenShot.png" width="350" alt="Screen Shot">
+  <img src="./ScreenShot.png" width="500" alt="Screen Shot">
 </p>
