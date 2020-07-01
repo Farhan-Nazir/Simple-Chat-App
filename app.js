@@ -1,15 +1,15 @@
-var express = require("express");
-var socket = require("socket.io");
+const express = require("express");
+const socket = require("socket.io");
+const PORT = process.env.PORT || 5000;
 
-var app = express();
+const app = express();
 
 app.use(express.static("views"));
 
-var server = app.listen(3000);
-console.log("localhost:" + server.address().port);
+const server = app.listen(PORT, () => console.log("localhost:" + server.address().port));
 
 // Socket setup & pass server
-var io = socket(server);
+const io = socket(server);
 io.on("connection", socket => {
   console.log("made socket connection", socket.id);
 
