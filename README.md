@@ -11,6 +11,9 @@ Docker image available now...
 Private chats
 sending files, images, offline and online functions, admin controll panel. Auto restriction Abusing/badwords.
 Blocking and unblocking of ip.
+ 
+### live demo
+http://chat-app-lite.herokuapp.com/
 
 ### Screen Shot
 <p align="center">
