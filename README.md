@@ -2,6 +2,9 @@
 This is webapp is for chating using browser, only need a name to enter in the room. 
 Open chat without private messages.
 
+Docker image available now...
+`docker pull farhanjii/chat-app:latest`
+
 
 
 #### Upcoming Features
